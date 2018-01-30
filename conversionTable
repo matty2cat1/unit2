@@ -7,3 +7,17 @@ print("2) Kg to lb")
 print("3) L to gal")
 print("4) C to F")
 sel = int(input("What conversion would you like? "))
+if sel == 1:
+    km = int(input("How many Kilometers? "))
+    print("That is ", round(km*.62,2), "miles")
+elif sel == 2:
+    kg = int(input("How many Kilograms? "))
+    print("That is ", round(kg*2.2,2), "pounds")
+elif sel == 3:
+    li = int(input("How many Liters? "))
+    print("That is ", round(li/3.8,2), "gallons")
+elif sel == 4:
+    cel = int(input("What is the temperature in Celsius? "))
+    print("That is ", round(cel*1.8 + 32, 2), "Fahrenheit")
+else:
+    print("Error: please select 1-4")
