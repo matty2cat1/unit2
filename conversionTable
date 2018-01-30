@@ -1,9 +1,9 @@
 #Matt Westelman
 #conversionTable - lots of if statments!
-#1/29/18
+#1/30/18
 
 print("1) Km to mi")
 print("2) Kg to lb")
 print("3) L to gal")
 print("4) C to F")
-int(input("What conversion would you like? "))
+sel = int(input("What conversion would you like? "))
