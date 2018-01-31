@@ -17,6 +17,6 @@ elif num == 1:
 elif num == 2:
     print("You have to wake up")
 elif num == 3:
-    print("Dinner is ready soon")
+    print("Dinner will be ready soon")
 elif num == 4:
-    print("The police are going to bust down that door in 3... 2... 1...")
+    print("Look behind you...")
