@@ -1,5 +1,5 @@
 #Matt Westelman
-#brogue
+#brogue.py
 #2/2/18
 
 print("You open the door, and see an axe and a rapier")
@@ -9,7 +9,7 @@ if weapon == "axe":
     if axeEquip == "yes":
         print("You can barely lift its massive weight: 2 more strength would be ideal")
     else:
-        ("you put the axe in your pack")
+        print("you put the axe in your pack")
 elif weapon == "rapier": 
     swordEquip = input("equip the rapier? (yes or no)")
     if swordEquip == "yes":
