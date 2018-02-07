@@ -1,5 +1,5 @@
 #Matt Westelman
-#brogue.py
+#brogue.py - Short adventure game
 #2/2/18
 
 print("You open the door, and see an axe and a rapier")
